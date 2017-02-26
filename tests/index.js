@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('tape');
-var add = require('./index.js');
+var add = require('../index.js');
 
 test('add: should add two numbers when a < 5', function(t) {
   var res = add(1,2);
