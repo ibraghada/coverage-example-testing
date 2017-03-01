@@ -7,10 +7,12 @@
     "test": "tests"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
   "scripts": {
     "test": "node tests/index.js",
-    "cov" : "./node_modules/.bin/istanbul cover tests/index.js"
+    "cov": "./node_modules/.bin/istanbul cover tests/index.js"
   },
   "repository": {
     "type": "git",
