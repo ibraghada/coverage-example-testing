@@ -6,7 +6,9 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {},
+  "dependencies": {
+    "codeclimate-test-reporter": "^0.4.1"
+  },
   "devDependencies": {
     "tape": "^4.6.3"
   },
