@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "node tests/index.js",
-    "cov": "./node_modules/.bin/istanbul cover tests/index.js"
+     "cov": "./node_modules/.bin/istanbul cover tests/index.js"
   },
   "repository": {
     "type": "git",
