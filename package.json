@@ -1,0 +1,26 @@
+{
+  "name": "cov-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests/index.js",
+    "cov" : "./node_modules/.bin/istanbul cover tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/besarthoxhaj/cov-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/besarthoxhaj/cov-example/issues"
+  },
+  "homepage": "https://github.com/besarthoxhaj/cov-example#readme"
+}
